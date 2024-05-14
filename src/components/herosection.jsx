@@ -11,17 +11,16 @@ const Herosection = () => {
       <Header /> 
       {/* hero section  */}
     <div className="flex items-center justify-between p-28 bg-white">
-    
       <div className="max-w-md">
         <h1 className="text-4xl font-bold ">
           Here to transform <span className="text-blue-500">your</span> career
         </h1>
         <p className="mt-4 text-gray-600">
-          The perfect blend of theoretical knowledge and practical experience is the key to a successful career. Here at [Automation], we bridge that gap by offering comprehensive courses alongside real-world internship opportunities.
+          The perfect blend of theoretical knowledge and practical experience is the key to a successful career. Here at Automation, we bridge that gap by offering comprehensive courses alongside real-world internship opportunities.
         </p>
         <br></br>
         <h2 className='text-blue-500 font-bold'>
-            10<span className="text-green-500">X</span>
+            10<span className="text-green-500">X</span> <span className="text-black">Your Career Growth</span>
         </h2>
         <Link to="">
             <button className="mt-6 px-4 py-2 bg-blue-500 text-white rounded-md">

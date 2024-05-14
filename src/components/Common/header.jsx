@@ -5,7 +5,7 @@ import logo from '../images/logo.png'; //impot logo
 
 const Header = () => {
   return (
-    <header className=" border-b-[1px] p-4 flex justify-between items-center">
+    <header className=" border-b-[1px] p-4  flex justify-between items-center  max-w-[1289px] mx-auto">
       <div className="flex items-center">
       {/* logo on left side of header */}
         <img src={logo} alt="Automation Logo" className="h-10 mr-3" />    
