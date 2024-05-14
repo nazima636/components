@@ -1,11 +1,14 @@
-import "./App.css";
-import Header from "./components/Common/header";
-function App() {
+import React from 'react';
+import Hero from './components/herosection';
+
+
+const App = () => {
   return (
+    <div>
 
-    <Header/>
-  )
-
-}
+      <Hero />
+    </div>
+  );
+};
 
 export default App;
