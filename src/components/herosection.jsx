@@ -1,15 +1,10 @@
 import React from 'react';
-import Header from './Common/header'; // header imported
 import Image from './images/Studentslearning.png'; // student image imported
 import { Link } from 'react-router-dom';
 
 const Herosection = () => {
   return (
 
-    <div>
-    {/* header */}
-      <Header /> 
-      {/* hero section  */}
     <div className="flex items-center justify-between p-28 bg-white">
       <div className="max-w-md">
         <h1 className="text-4xl font-bold ">
@@ -32,7 +27,7 @@ const Herosection = () => {
           <img src={Image} alt="Students Learning" className="h-96 w-96 object-cover rounded-full" />
         </div>
     </div>
-    </div>
+  
   );
 };
 
