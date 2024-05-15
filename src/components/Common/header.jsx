@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // import links using react-router-dom
 import { FaHome, FaBook, FaClipboardList, FaBriefcase } from 'react-icons/fa'; // react-icons import
+import { BsCCircle } from "react-icons/bs";
 import logo from '../images/logo.png'; // import logo
 
 const Header = () => {
@@ -28,6 +29,9 @@ const Header = () => {
         <Link to="" className="flex items-center flex-col hover:text-black">
           <FaBriefcase className="text-2xl" />
           <span className="text-sm">Internships</span>
+        </Link>
+        <Link to="" className="flex items-center flex-col hover:text-black">
+        <BsCCircle className='text-2xl' />
         </Link>
       </nav>
     </header>

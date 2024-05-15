@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Herosection = () => {
   return (
 
-    <div className="flex items-center justify-between p-28 bg-white">
+    <div className="flex items-center justify-between p-28 max-w-[1289px] bg-white">
       <div className="max-w-md">
         <h1 className="text-4xl font-bold ">
           Here to transform <span className="text-blue-500">your</span> career
